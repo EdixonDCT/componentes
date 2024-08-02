@@ -1,0 +1,125 @@
+*{
+    margin: 0 auto;
+}
+:root{
+    --color1: rgb(44, 72, 164);
+    --color2:  rgb(255, 255, 255);
+    --color3:  rgb(44, 23, 118);
+}
+body {
+    margin: 0;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.componente{
+    margin: 0 10px;
+    width: 200px;
+    display: inline-block;
+    background-color: var(--color1);
+    padding: 15px;
+    border: solid 3px var(--color3);
+    text-align: center;
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.componente:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+    border: solid 3px var(--color1);
+}
+.seleccion{
+    padding: 0px;
+    align-content: center;
+    text-align: center;
+}
+.Btn {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.leftContainer {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.leftContainer .like {
+  color: white;
+  font-weight: 600;
+}
+
+.likeCount {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  position: relative;
+  background-color: white;
+}
+
+.likeCount::before {
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+  left: -4px;
+}
+
+.orden{
+  width: 10%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.boton__icono{
+  font-size: 24px;
+  color: white;
+}
+
+.leftContainer.red{
+background-color: red;
+}
+.Btn.red:hover .leftContainer.red {
+    background-color: pink;
+}
+
+.leftContainer.blue{
+background-color: blue;
+}
+.Btn.blue:hover .leftContainer.blue {
+    background-color: cyan;
+}
+.leftContainer.green{
+background-color: green;
+}
+.Btn.green:hover .leftContainer.green {
+    background-color: greenyellow;
+}
+.leftContainer.yellow{
+background-color: goldenrod;
+}
+.Btn.yellow:hover .leftContainer.yellow {
+    background-color: yellow;
+}
