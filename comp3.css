@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+}
+:root{
+    --color1: rgb(106, 111, 155);
+    --color2:  rgb(255, 255, 255);
+    --color3:  rgb(26, 17, 58);
+}
+.componente{
+    margin: 0 10px;
+    width: 200px;
+    display: inline-block;
+    background-color: var(--color1);
+    padding: 15px;
+    border: solid 3px var(--color3);
+    text-align: center;
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.componente:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+    border: solid 3px var(--color1);
+}
+.seleccion{
+    padding: 0px;
+    align-content: center;
+    text-align: center;
+}
