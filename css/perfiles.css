@@ -1,0 +1,31 @@
+@import url(style.css);
+
+.perfil{
+    border: 3px solid var(--color--negro);
+    border-radius: 8px;
+    display: flex;
+    width: 300px;
+    padding: 16px;
+    margin-bottom: var(--tamaño--chico);
+    background-color: var(--color--blanco);
+}
+
+.perfil__imagen {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;           
+}
+.perfil__nombre {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.perfil--azul{
+    background-color: var(--color--azul);
+}
+.perfil--verde{
+    background-color: var(--color--verde);
+}
+.perfil--vinotinto{
+    background-color: var(--color--vinotinto);
+}

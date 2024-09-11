@@ -1,0 +1,83 @@
+@import url(style.css);
+
+.boton{
+    margin-top: 10px;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    left: 10px;
+    padding: 0;
+    transition: 0.5s ease;
+}
+
+.boton__logo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    font-size: 16px;
+}
+.boton__icono{
+    font-size:24px;
+    margin-right:-20px;
+}
+.boton__texto{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+    background-color: white;
+    left: 10px;
+}
+
+.boton__texto::before {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    left: -4px;
+}
+
+.boton__color--rojo{
+    background-color: var(--color--vinotinto);
+}
+
+.boton__color--rojo:hover{
+    background-color: pink;
+}
+.boton__color--azul{
+    background-color: var(--color--azul);
+}
+
+.boton__color--azul:hover{
+    background-color: var(--color--celeste);
+}
+.boton__color--verde{
+    background-color: green;
+}
+
+.boton__color--verde:hover{
+    background-color: var(--color--verde);
+}
+.boton__color--negro{
+    background-color: var(--color--negro);
+}
+
+.boton__color--negro:hover{
+    background-color: var(--color--amarilla);
+}

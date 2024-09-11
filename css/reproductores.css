@@ -1,0 +1,33 @@
+@import url(style.css);
+
+.reproductores{
+    display:flex;
+}
+.reproductor{
+    max-width: 200px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: var(--color--blanco);
+  }
+.reproductor__imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+.reproductor__musica {
+    width: 100%;
+    outline: none;
+  }
+.reproductor--azul{
+    background-color: var(--color--azul);
+}
+.reproductor--verde{
+    background-color: var(--color--verde);
+}
+.reproductor--vinotinto{
+    background-color: var(--color--vinotinto);
+}

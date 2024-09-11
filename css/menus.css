@@ -1,0 +1,84 @@
+@import url(style.css);
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .menu {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .menu__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu__item {
+    position: relative;
+  }
+  
+  .menu__link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .menu__link:hover {
+    background-color: var(--color--transparente);
+  }
+  
+  .menu__submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    z-index: 2; 
+  }
+  
+  .menu__item--desplegable:hover .menu__submenu {
+    display: block;
+  }
+  
+  .menu__submenu-item {
+    width: 200px;
+  }
+  
+  .menu__submenu-link {
+    color: black; 
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+ 
+  .menu--negro {
+    background-color: var(--color--negro);
+  }
+  
+  .menu--verde {
+    background-color: var(--color--verde);
+  }
+  
+  .menu--azul {
+    background-color: var(--color--azul);
+  }
+  
+  .menu--vinotinto {
+    background-color: var(--color--vinotinto);
+  }

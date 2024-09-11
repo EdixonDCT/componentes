@@ -1,0 +1,38 @@
+@import url(style.css);
+
+.buscador{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-bottom: var(--tamaño--grande);
+}
+
+.buscador__texto{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buscador__boton{
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--color--negro);
+}
+.buscador__banner{
+    width: auto;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+}
+.buscador__color--azul{
+      background-color: rgb(10, 114, 249);
+}
+.buscador__color--vinotinto{
+      background-color: red;
+}
+.buscador__color--verde{
+      background-color: rgb(41, 172, 52);
+}

@@ -1,0 +1,33 @@
+@import url(style.css);
+
+.tabla{
+    width: 70%;
+    border-collapse: collapse;
+    background-color: var(--color--blanco);
+    margin-bottom: var(--tamaño--grande);
+}
+
+.tabla th, .tabla td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabla__color th {
+      background-color: var(--color--transparente);
+      color: white;
+}
+.tabla__color--azul th {
+      background-color: var(--color--azul);
+      color: white;
+}
+
+.tabla__color--verde th {
+      background-color: var(--color--verde);
+      color: white;
+}
+
+.tabla__color--vinotinto th {
+      background-color: var(--color--vinotinto);
+      color: white;
+}
